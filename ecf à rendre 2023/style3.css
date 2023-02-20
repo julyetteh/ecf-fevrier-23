@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Playfair+Display:wght@600&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Monserrat' ,sans-serif;
+}
+
+nav{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+}
+
+nav h1{
+    color:#717171;
+    font-family:'Playfair Display', sans-serif;
+    font-size: 30px;
+}
+
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .onglets a{
+    text-decoration:none ;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    color:#000;
+    padding: 40px;
+    background: url(images1/brick-wall-1834784_1920.jpg);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+form .corps-formulaire{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+form .corps-formulaire .groupe{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+form .corps-formulaire .gauche .groupe i{
+    position: absolute;
+    left: 20%;
+    padding: 16px 18px;
+ 
+}
+
+.groupe{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+button{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-top: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+.horaires-midi{
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 10px 10px;
+    color: #000;
+    border: none;
+    font-size: 10px;
+    font-family: 'Playfair Display'sans-serif;
+    outline: none;
+    
+}
+
+section p{
+    font-size: 30px;
+}
+
+.horaires-soir{
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    color: #000;
+    border: none;
+    font-size: 10px;
+    font-family: 'Playfair Display'sans-serif;
+    outline: none;}
+
+
+section p{
+        font-size: 30px;
+       font-weight: 900;
+       
+    }
+
+
+textarea{
+    justify-content: center;
+    margin-left: 90px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #000 ;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    width: 85%;
+}
+
+footer{
+    background-color: #6f6f6f;
+    border-top: #6f6f6f;
+}
+
+footer button{
+   margin-left: 600px;
+   background-color: #fff
+   
+   padding right: 10px
+}
+
+
+    
+@media screen and (max-width:680px) {
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+   header .group{
+       display: block;
+       margin-left: 40px; 
+   }
+   textarea{
+   margin-left: 15px;
+
+   }
+
+   footer button{
+    margin-left: 60px ;
+   }
+    
+    
+    
+}
